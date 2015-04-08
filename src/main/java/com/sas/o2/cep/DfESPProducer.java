@@ -96,8 +96,8 @@ public class DfESPProducer extends DefaultProducer implements clientCallbacks {
         ArrayList<dfESPevent> eventList = new ArrayList<>();
         while (scanner.hasNextLine()) {
             String lineForCep = scanner.nextLine();
-            lineForCep = lineForCep.replace("\\", "\\\\");		//escape backslash \
-            lineForCep = lineForCep.replace("\"", "\\\"");		//escape quotes "
+            //lineForCep = lineForCep.replace("\\", "\\\\");		//escape backslash \
+            //lineForCep = lineForCep.replace("\"", "\\\"");		//escape quotes " uncommented Mathias Bouten
 
             // ignore empty lines
             if (!lineForCep.trim().isEmpty()) {

@@ -6,7 +6,7 @@
     <groupId>com.sas</groupId>
     <artifactId>dfESP-component</artifactId>
     <packaging>bundle</packaging>
-    <version>1.6</version>
+    <version>1.7</version>
 
     <name>Camel dfESP Component</name>
     <url>http://www.myorganization.org</url>
