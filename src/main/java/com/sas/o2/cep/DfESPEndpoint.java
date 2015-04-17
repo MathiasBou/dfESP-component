@@ -18,14 +18,7 @@ import com.sas.esp.api.server.event.EventOpcodes;
 /**
  * Represents a dfESP endpoint.
  */
-/**
- * @author moritz löser (moritz.loeser@prodyna.com)
- *
- */
-/**
- * @author moritz löser (moritz.loeser@prodyna.com)
- *
- */
+
 @UriEndpoint(scheme = "dfESP")
 @ManagedResource(description = "DfESP endpoint")
 public class DfESPEndpoint extends DefaultEndpoint {

@@ -10,8 +10,6 @@ import com.sas.esp.api.server.datavar.FieldTypes;
  * Represents an event in esp - its data (value) and meta data (name, type and
  * index number).
  *
- * @author moritz löser (moritz.loeser@prodyna.com)
- *
  */
 public class EspDataItem {
     /**

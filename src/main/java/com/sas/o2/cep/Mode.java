@@ -4,8 +4,6 @@ package com.sas.o2.cep;
  * Mode for inserting publishing data to esp engine. The enum is mapped to a
  * string-opcode that will be used as a prefix for each event published.
  *
- * @author moritz löser (moritz.loeser@prodyna.com)
- *
  */
 public enum Mode {
     /**
